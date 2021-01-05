@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prof-img {
+  max-width: 15%;
+  border-radius: 10%;
+  margin-top: 40px;
+}
+
+.profile h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #4e5150;
+  margin-top: 15px;
+}
+
+.profile p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #a9a9a9;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.stats .cards {
+  width: 100px;
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: #e5e5e5;
+  border-radius: 12px;
+  margin: 5px 10px;
+}
+
+.stats .cards h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #4e5150;
+}
+
+.stats .cards p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #bdbdbd;
+}
+
+.top-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.top-img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-img .left-img {
+  max-width: 33%;
+}
+
+.top-img .right-img {
+  max-width: 60%;
+}
+
+.bottom-img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.bottom-img img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.bottom-img .left-img {
+  max-width: 61%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-img .right-img {
+  max-width: 31.7%;
+}
+
+.left-bt-img {
+  display: flex;
+  align-content: space-between;
+  max-width: 49%;
+  margin-top: 30px;
+}
+
+.br-img {
+  margin-left: 15px;
+}
+
+.bottom-img .r-img {
+  border-radius: 5%;
+}
+
+footer p {
+  margin: 50px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+
+  color: #a9a9a9;
+}
+
+@media (max-width: 600px) {
+  .left-bt-img {
+    max-width: 48%;
+  }
+
+  .profile h3 {
+    font-size: 22px;
+  }
+
+  .profile p {
+    font-size: 12px;
+  }
+
+  .stats .cards h3 {
+    font-size: 14px;
+  }
+
+  .stats .cards p {
+    font-size: 12px;
+  }
+
+  .stats .cards {
+    width: 78px;
+    height: 52px;
+  }
+}
+
+@media (max-width: 480px) {
+  .left-bt-img {
+    max-width: 47%;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+}
